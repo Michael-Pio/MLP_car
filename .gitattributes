@@ -1,0 +1,39 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Unreal Engine files
+*.uasset binary
+*.umap binary
+*.uproject binary
+*.uplugin binary
+*.uplugin.meta binary
+*.uprojectdirs binary
+*.sln binary
+*.suo binary
+*.vcxproj binary
+*.vcxproj.filters binary
+*.pdb binary
+*.ini binary
+*.log binary
+
+# Text files should always end with a newline
+*.txt eol=lf
+*.csv eol=lf
+*.md eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.bmp binary
+*.gif binary
+*.tga binary
+*.dds binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.mp4 binary
+*.fbx binary
+*.obj binary
+*.fbx binary
+*.exe binary
